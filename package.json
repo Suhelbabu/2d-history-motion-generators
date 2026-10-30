@@ -1,0 +1,20 @@
+{
+"name": "2d-history-motion-generator",
+"version": "1.0.0",
+"private": true,
+"scripts": {
+"dev": "remotion studio",
+"render": "remotion render src/index.ts Main out/history-short.mp4"
+},
+"dependencies": {
+"@remotion/cli": "^4.0.300",
+"remotion": "^4.0.300",
+"react": "^18.3.1",
+"react-dom": "^18.3.1"
+},
+"devDependencies": {
+"@types/react": "^18.3.12",
+"@types/react-dom": "^18.3.1",
+"typescript": "^5.7.2"
+}
+}
